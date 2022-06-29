@@ -20,7 +20,6 @@ gem 'github_api', '~> 0.19'
 gem 'github_webhook', '~> 1.4'
 gem 'inline_svg', '~> 1.8'
 gem 'jquery-rails', '~> 4.5'
-gem 'kaminari', '~> 1.2'
 gem 'kramdown', '~> 2.4'
 gem 'newrelic_rpm', '~> 8.8'
 gem 'noticed', '~> 1.5'
@@ -28,6 +27,7 @@ gem 'octokit', '~> 4.25'
 gem 'omniauth-github', '~> 2.0'
 gem 'omniauth-google-oauth2', '~> 1.0'
 gem 'omniauth-rails_csrf_protection', '~> 1.0'
+gem 'pagy', '~> 5.10'
 gem 'pg', '~> 1.4'
 gem 'puma', '~> 5.6'
 gem 'rack-attack', '~> 6.6'
@@ -49,7 +49,7 @@ group :development do
   gem 'rubocop', '~> 1.31', require: false
   gem 'rubocop-performance', '~> 1.14', require: false
   gem 'rubocop-rails', '~> 2.15', require: false
-  gem 'rubocop-rspec', '~> 2.11', require: false
+  gem 'rubocop-rspec', '~> 2.12', require: false
   gem 'web-console', '~> 4.2'
 end
 
