@@ -23,6 +23,7 @@
     "@sentry/browser": "^7.3.0",
     "@stimulus/polyfills": "^2.0.0",
     "@tailwindcss/typography": "^0.4.1",
+    "@webpack-cli/serve": "^1.7.0",
     "autoprefixer": "^9",
     "axios": "^0.27.2",
     "babel-loader": "8",
